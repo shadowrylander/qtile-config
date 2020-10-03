@@ -70,12 +70,12 @@ layouts = [
     # XXX : Emulate Wmii tiling: each new window adds to the focused
     #       column. Moving a window "out" of the current colmun creates
     #       a new column.
-    layout.Wmii(
-        border_normal=BORDER_NORMAL,
-        border_focus=BORDER_FOCUS,
-        border_width=BORDER_WIDTH,
-        margin=MARGIN,
-    ),
+    # layout.Wmii(
+    #     border_normal=BORDER_NORMAL,
+    #     border_focus=BORDER_FOCUS,
+    #     border_width=BORDER_WIDTH,
+    #     margin=MARGIN,
+    # ),
     # XXX : A simple grid fill of the screen aiming for square number tilings
     #       at the expense of leaving blank positions if it correctly places
     #       the remaining windows.
